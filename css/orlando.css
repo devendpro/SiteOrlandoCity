@@ -105,6 +105,10 @@ header #logotipo{
 	top: 20px;
 }
 
+body {
+	overflow-y: hidden;
+}
+
 #menu {
 	margin: 12px 0;
 }
@@ -178,5 +182,53 @@ header #logotipo{
 	display: block;
 	color: #FFF;
 	font-family: 'Open Sans';
+	font-weight: bold;
+}
+
+#news{
+	position: relative;
+	top: -110px;
+}
+
+#news h2 {
+	color: #5E2799;
+	font-family: 'Open Sans'
+	font-weight: lighter;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#news hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	/*border-style: ;*/
+	border-width: 8px;
+	border-color: #FDE192;
+	color: #FDE192;
+	width: 230px;
+}
+
+#news .thumbnails {
+	margin-top: 20px;
+}
+
+#news .thumbnails h3{
+	color: #5E299A;
+	font-size: 18px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0;
+
+}
+
+#news .thumbnails time {
+	color: #A7A7A7;
+	font-size: 18px;
+	font-family: 'Open Sans'
 	font-weight: bold;
 }
