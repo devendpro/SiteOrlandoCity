@@ -183,6 +183,7 @@ header #logotipo{
 	color: #FFF;
 	font-family: 'Open Sans';
 	font-weight: bold;
+	padding-left: 8px;
 }
 
 #news{
