@@ -460,3 +460,7 @@ footer .list-sociais i {
 	margin: 4px auto;
 	/*margin-top: 4px;*/
 }
+
+video {
+	width: 60%;
+}
